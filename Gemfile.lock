@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.2.0)
+    builder (3.2.2)
+    json (1.8.1)
+    nokogiri (1.5.11)
+    point (1.0.3)
+      json (>= 1.1.5)
+    route53 (0.3.0)
+      builder
+      nokogiri (~> 1.5.10)
+      ruby-hmac
+    ruby-hmac (0.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  point
+  route53
